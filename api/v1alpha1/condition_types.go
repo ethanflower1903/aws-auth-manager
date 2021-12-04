@@ -2,11 +2,12 @@ package v1alpha1
 
 const (
 	CreateAwsAuthConfigMapFailedReason = "CreateAWSAuthConfigMapFailed"
+	DryRunSuccededReason               = "DryRunSucced"
 	GetAwsAuthConfigMapFailedReason    = "GetAWSAuthConfigMapFailed"
-	UpdateAwsAuthConfigMapFailedReason = "UpdateAWSAuthConfigMapFailed"
+	HashMapRolesFailedReason           = "HashMapRolesFailed"
+	HashMapUsersFailedReason           = "HashMapUsersFailed"
 	ListAWSAuthItemFailedReason        = "ListAWSAuthItemFailed"
 	MarshalMapRolesFailedReason        = "MarshalMapRolesFailed"
 	MarshalMapUsersFailedReason        = "MarshalMapUsersFailed"
-	HashMapUsersFailedReason           = "HashMapUsersFailed"
-	HashMapRolesFailedReason           = "HashMapRolesFailed"
+	UpdateAwsAuthConfigMapFailedReason = "UpdateAWSAuthConfigMapFailed"
 )
